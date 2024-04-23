@@ -8,10 +8,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'herobtn': 'linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%)',
+        'text': 'linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%)',
       },
+      fontFamily: {
+        'inter': '"Inter", sans-serif',
+        'poppins':'"Poppins", sans-serif'
+      }
     },
   },
   plugins: [],
