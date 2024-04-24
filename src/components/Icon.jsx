@@ -44,7 +44,7 @@ export const Callicon = () => {
 };
 export const Facebook = () => {
   return (
-    <svg
+    <svg className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
       width="30"
       height="30"
       viewBox="0 0 30 30"
@@ -75,7 +75,7 @@ export const Facebook = () => {
 
 export const Twitter = () => {
   return (
-    <svg
+    <svg className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
       width="30"
       height="31"
       viewBox="0 0 30 31"
@@ -104,7 +104,7 @@ export const Twitter = () => {
 
 export const Mail = () => {
   return (
-    <svg
+    <svg className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
       width="30"
       height="31"
       viewBox="0 0 30 31"
@@ -134,7 +134,7 @@ export const Mail = () => {
 };
 export const Instagram = () => {
   return (
-    <svg
+    <svg className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
       width="30"
       height="31"
       viewBox="0 0 30 31"
@@ -224,6 +224,19 @@ export const Btnarrow = () => {
           <stop offset="1" stopColor="#8703C5" />
         </linearGradient>
       </defs>
+    </svg>
+  );
+};
+export const Uparrow = () => {
+  return (
+    <svg
+      className="fill-white"
+      xmlns="http://www.w3.org/2000/svg"
+      height="24"
+      viewBox="0 -960 960 960"
+      width="24"
+    >
+      <path d="M200-200v-80h560v80H200Zm14-160 266-400 266 400H214Zm266-80Zm-118 0h236L480-616 362-440Z" />
     </svg>
   );
 };

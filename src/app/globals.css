@@ -22,7 +22,9 @@
  .ff-helvetica{
   font-family:  Helvetica, sans-serif;
  }
-
+.slick-dots li {
+   margin: 0 !important;
+}
   .istslider .slick-dots {
     position: absolute;
     bottom: -30px;

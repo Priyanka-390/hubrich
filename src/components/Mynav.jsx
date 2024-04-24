@@ -17,7 +17,7 @@ const Mynav = () => {
           <div className='container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto'>
               <div className='flex justify-between items-center'>
                   <a href="">
-                      <Image src="/assets/images/svg/hubrichlogo.svg" width={145.37} height={53} alt='logo'/>
+                      <Image src="/assets/images/svg/hubrichlogo.svg" width={145.37} height={53} alt='logo' className='w-auto h-auto'/>
                   </a>
                   <ul className={`flex gap-10 items-center mobileView  ${ show ? "right-[-100%]" : "right-0"
               }`}>

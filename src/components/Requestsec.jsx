@@ -55,8 +55,8 @@ export default function Requestsec() {
             {cardatas2}
           </div>
           <div className="flex justify-center lg:pb-44 sm:pb-20 pb-14">
-            <div className="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] max-w-[452px] p-[1.6px] rounded-[63px]">
-              <div className="w-full flex items-center bg-white py-1 md:pr-12 pr-4 rounded-[63px]">
+            <div className="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] cursor-pointer max-w-[452px] p-[1.6px] rounded-[63px]">
+              <div className="w-full flex items-center hover:bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] duration-300 group bg-white py-1 md:pr-12 pr-4 rounded-[63px]">
                 <span>
                   <Image
                     src="/assets/images/svg/icon1.svg"
@@ -65,7 +65,7 @@ export default function Requestsec() {
                     alt="1"
                   />
                 </span>
-                <span className="pl-1 bg-gradient-to-t from-[#0C5FD1] to-[#8703C5] font-medium font-inter sm:text-base text-sm text-transparent bg-clip-text inline-block">
+                <span className="pl-1 bg-gradient-to-t from-[#0C5FD1] to-[#8703C5] font-medium font-inter group-hover:text-white duration-300 sm:text-base text-sm text-transparent bg-clip-text inline-block">
                   Book a non-binding initial consultation now
                 </span>
               </div>

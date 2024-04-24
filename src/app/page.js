@@ -1,5 +1,5 @@
 
-import ClientSlider from "@/components/ClientSlider";
+import Backtop from "@/components/Backtop";
 import Fault from "@/components/Fault";
 import Footersec from "@/components/Footersec";
 import Getsec from "@/components/Getsec";
@@ -17,7 +17,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className="bg-[url(/assets/images/heroimg.webp)] bg-cover relative">
+      <div className="lg:bg-[url(/assets/images/heroimg.webp)] bg-[url(/assets/images/herobg2.webp)] 2xl:min-h-screen after:absolute after:top-0 after:right-0 after:bg-white max-lg:after:h-full after:left-0 after:z-[-1] z-[1] after:opacity-80 bg-cover bg-center bg-no-repeat relative">
         <Mynav />
         <Herosec />
         <Image
@@ -25,7 +25,7 @@ export default function Home() {
           width={615}
           height={612}
           alt="heroellips"
-          className="absolute top-[-12%] left-[-5%]"
+          className="absolute top-[-12%] w-auto h-auto left-[-5%]"
         />
       </div>
       <Fault />
@@ -36,10 +36,9 @@ export default function Home() {
       <Phasessec />
       <Oversec />
       <Lawyersec />
-     <ClientSlider/>
       <Requestsec />
       <Footersec />
-      {/* <ClientSlider /> */}
+     <Backtop/>
     </div>
   );
 }

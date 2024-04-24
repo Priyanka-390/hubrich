@@ -20,10 +20,10 @@ export default function Targetsec() {
                             <div className="bg-[#FFFFFF1F] max-md:mx-auto hover:bg-[#003E92B2] duration-300 md:mb-8 mb-3 md:h-[187px] h-[140px] md:px-10 p-5 md:py-10 max-w-[382px] border-[#FFFFFF26] border-[1px] border-solid">
                                 <p className="text-white font-poppins font-normal sm:text-base text-sm">You have separated and have the feeling that you can never be happy again and that you will be alone forever.</p>
                             </div>
-                            <div className="md:px-8 p-8 md:hidden block md:py-16 max-md:mx-auto md:translate-y-72 md:h-[272px] h-[200px] bg-[#003E92B2] max-w-[338px] backdrop-blur-[11px]">
+                            <div className="md:px-8 p-8 md:hidden block md:py-16 max-md:mx-auto md:translate-y-72 md:h-[272px] h-[200px] bg-[#003E92B2] max-w-[338px] max-md:max-w-[382px] backdrop-blur-[11px]">
                                 <p className=" font-poppins font-normal sm:text-base text-sm text-white">To understand how to let go of your partner, you need a detailed step-by-step action plan, which you will receive from me in a 1:1 coaching session.</p>
                             </div>
-                             <div className="bg-[#FFFFFF1F] max-md:mt-3 max-md:mx-auto md:h-[187px] h-[140px] md:px-10 p-5 md:py-10 max-w-[382px] border-[#FFFFFF26] border-[1px] border-solid">
+                             <div className="bg-[#FFFFFF1F] max-md:mt-3 max-md:mx-auto hover:bg-[#003E92B2] duration-300 md:h-[187px] h-[140px] md:px-10 p-5 md:py-10 max-w-[382px] border-[#FFFFFF26] border-[1px] border-solid">
                                 <p className="text-white font-poppins font-normal sm:text-base text-sm">How are you supposed to be able to let go of someone who is so entangled with your life? It's impossible, isn't it?.</p>
                             </div>
                         </div>

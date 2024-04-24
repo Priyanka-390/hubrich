@@ -6,7 +6,7 @@ export default function Getsec() {
             <div id="benefit" className="container relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
                <h2 className=" font-poppins font-normal pb-5 pt-12 text-base text-center text-black">You are not alone! Numerous women before you stood exactly at this point, where you are now.</h2>
              <div className="flex items-center pb-2 justify-center">
-          <div className="bg-gradient-to-r from-[#0C5FD1]  to-[#8703C5]  p-[1.6px] rounded-[63px]">
+          <div className="bg-gradient-to-r from-[#0C5FD1]  to-[#8703C5]  p-[1.6px] rounded-[63px] cursor-pointer">
             <div className="w-full flex xl:ps-1 items-center hover:bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] duration-300 transition-all group bg-white py-1 md:pr-12 pr-4 rounded-[63px]">
               <span>
                 <Image

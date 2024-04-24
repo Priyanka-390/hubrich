@@ -3,7 +3,7 @@ import { Btnarrow } from "./Icon";
 
 export default function Lawyersec() {
   return (
-    <div className=" lg:pt-60 pt-40 relative">
+    <div className=" lg:pt-60 pt-40 z-[1] relative">
       <div className="container relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="absolute lg:top-[-42%] top-[-22%] left-12 sm:left-0 max-sm:rotate-90">
           <div className="flex items-end mt-3 translate-x-6">
@@ -66,7 +66,7 @@ export default function Lawyersec() {
         width={738}
         height={211}
         alt="ellipsel"
-        className="absolute bottom-[-1%] right-0"
+        className="absolute z-[-1] bottom-[-1%] right-0"
       />
     </div>
   );

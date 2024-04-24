@@ -36,7 +36,7 @@ export default function Livesec() {
                 <div className="flex items-center max-sm:justify-center flex-row flex-wrap">
                     {data}
                     <div className="lg:w-1/3 sm:w-1/2 max-sm:pb-10 w-full">
-                        <div className=" sm:min-h-[230px] max-sm:pt-3  group w-full flex justify-center mx-auto items-center">
+                        <div className=" sm:min-h-[230px] max-sm:pt-3  group w-full flex justify-center cursor-pointer mx-auto items-center">
                             <div className="bg-gradient-to-r rounded-[8px] from-[#0C5FD1] to-[#8703C5] p-[1.6px] max-w-[292px] flex justify-center items-center">
                                 <div className=" py-[18.33px] rounded-[8px] hover:bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] transition-all duration-300 flex bg-white items-center pl-2">
                                     <Image src="/assets/images/svg/icon1.svg"  width={50.84}

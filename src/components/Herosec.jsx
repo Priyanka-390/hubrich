@@ -20,7 +20,7 @@ export default function Herosec() {
           away.
         </p>
         <div className="flex items-center">
-          <div className="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] p-[1.6px] rounded-[63px]">
+          <div className="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] p-[1.6px] cursor-pointer rounded-[63px]">
             <div className="w-full flex items-center bg-white ps-1 py-1 hover:bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] group md:pr-12 pr-4 rounded-[63px]">
               <span>
                 <Image

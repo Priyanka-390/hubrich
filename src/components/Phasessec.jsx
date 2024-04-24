@@ -58,7 +58,7 @@ export default function Phasessec() {
   ));
   return (
     <div className=" lg:pt-64 md:pt-40 pt-28 lg:pb-44 md:mb-2 relative overflow-y-clip mb-16 z-[1]">
-      <Image src="/assets/images/svg/phaseellipse.svg" width={612} height={615} alt="phase" className="absolute bottom-[70%] z-[-1] md:block hidden left-0" />
+      <Image src="/assets/images/svg/phaseellipse.svg" width={612} height={615} alt="phase" className="absolute bottom-[70%] w-auto h-auto z-[-1] md:block hidden left-0" />
       <div className="container lg:pt-20 relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="absolute xl:top-[-47%] lg:top-[-38%] max-lg:-rotate-90 top-[-6%] xl:right-[3%] lg:right-[7%]">
           <div className="flex justify-end">
@@ -75,7 +75,7 @@ export default function Phasessec() {
           </div>
         </div>
         <div className="flex flex-row flex-wrap">
-          <div className="lg:w-6/12 w-full pt-9">
+          <div className="lg:w-6/12 w-full sm:pt-9">
             <p className="sm:text-[29.38px] text-2xl lg:text-start text-center ff-helvetica font-normal sm:leading-[37.84px] text-black">
               THE FOUR PHASES OF
             </p>
@@ -88,8 +88,8 @@ export default function Phasessec() {
               each other and can overlap.
             </p>
             <div className="max-lg:flex max-lg:justify-center">
-                <div className="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] lg:max-w-[452px]  p-[1.6px] rounded-[63px]">
-                  <div className="w-full flex items-center pr-2 bg-white py-1  rounded-[63px]">
+                <div className="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] lg:max-w-[452px] cursor-pointer p-[1.6px] rounded-[63px]">
+                  <div className="w-full flex items-center pr-2 group hover:bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] duration-300 bg-white py-1  rounded-[63px]">
                     <span>
                       <Image
                         src="/assets/images/svg/icon1.svg"
@@ -98,7 +98,7 @@ export default function Phasessec() {
                         alt="1"
                       />
                     </span>
-                    <span className="pl-1 bg-gradient-to-t from-[#0C5FD1] to-[#8703C5] font-medium font-inter sm:text-base text-sm text-transparent bg-clip-text inline-block">
+                    <span className="pl-1 bg-gradient-to-t from-[#0C5FD1] to-[#8703C5] group-hover:text-white duration-300 font-medium font-inter sm:text-base text-sm text-transparent bg-clip-text inline-block">
                       Book a non-binding initial consultation now
                     </span>
                   </div>
