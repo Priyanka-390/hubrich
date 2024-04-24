@@ -27,12 +27,12 @@ export default function Notalonesec() {
         ))
     return ( 
         <>
-            <div className="bg-[url(/assets/images/alonebg.webp)] bg-cover mt-8">
+            <div className="bg-[url(/assets/images/alonebg.webp)] overflow-x-clip bg-cover mt-8">
                 <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
-                    <div className="flex lg:pb-7 max-w-[750px] max-xl:mx-auto xl:translate-x-80  flex-row lg:justify-end justify-center flex-wrap ">
+                    <div data-aos="fade-left" className="flex lg:pb-7 max-w-[750px] max-xl:mx-auto xl:!translate-x-80  flex-row lg:justify-end justify-center flex-wrap ">
                        {carddata}
                     </div>
-                       <div className="flex max-w-[750px] max-lg:pb-3 xl:translate-x-14 max-xl:mx-auto flex-row lg:justify-start justify-center flex-wrap ">
+                       <div data-aos="fade-right" className="flex max-w-[750px] max-lg:pb-3 xl:translate-x-14 max-xl:mx-auto flex-row lg:justify-start justify-center flex-wrap ">
                        {carddata2}
                     </div>
                 </div>

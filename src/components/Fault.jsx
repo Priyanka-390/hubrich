@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Fault() {
   return (
-    <div className=" md:pt-40 pt-28 relative">
+    <div className=" md:pt-40 pt-28 relative overflow-x-clip">
       <Image src="/assets/images/svg/faultellipse.svg" width={250} height={400} alt="fault" className="absolute lg:w-[259px] sm:w-[160px] w-[90px] top-[5%] right-0"/>
       <div className="container relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="absolute xl:top-[-116%] md:top-[-60%] top-[-46%] left-12 sm:left-0 max-sm:rotate-90">
@@ -22,12 +22,12 @@ export default function Fault() {
         </div>
         <div className="flex flex-row -mx-3 flex-wrap">
           <div className="md:w-7/12 w-full flex flex-col justify-center">
-            <h2 className=" font-normal lg:text-6xl max-sm:pt-1 sm:text-5xl text-3xl text-center ff-helvetica lg:leading-[77.28px] text-black">
+            <h2 data-aos="fade-right" className=" font-normal lg:text-6xl max-sm:pt-1 sm:text-5xl text-3xl text-center ff-helvetica lg:leading-[77.28px] text-black">
               IT'S NOT
                       </h2>
-                      <h2 className=" font-normal lg:text-6xl max-sm:pt-1 lg:pr-12 sm:text-5xl md:text-end text-center text-3xl ff-helvetica lg:leading-[77.28px] text-[#F77B0B]">YOUR <span className="text-black">FAULT!</span> </h2>
+                      <h2 data-aos="fade-right" className=" font-normal lg:text-6xl max-sm:pt-1 lg:pr-12 sm:text-5xl md:text-end text-center text-3xl ff-helvetica lg:leading-[77.28px] text-[#F77B0B]">YOUR <span className="text-black">FAULT!</span> </h2>
                   </div>
-                  <div className="md:w-5/12 w-full max-md:flex md:justify-start justify-center">
+                  <div data-aos="fade-left" className="md:w-5/12 w-full max-md:flex md:justify-start justify-center">
                       <p className="text-black md:text-start text-center max-md:before:absolute max-md:pt-2 max-md:before:top-[2px] max-md:before:right-[-11px] max-md:before:bottom-0 max-md:before:w-[2px] max-md:before:bg-[#9800B0] relative after:absolute after:top-[2px] lg:ml-16 ml-4 after:left-[-11px] after:bottom-0 after:w-[2px] after:bg-[#9800B0] max-w-[288px] text-base font-poppins font-normal">It's not your fault for not knowing how to let go of the partner who no longer made you feel special.</p>
                   </div>
         </div>

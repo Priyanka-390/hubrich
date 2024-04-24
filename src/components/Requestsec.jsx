@@ -46,12 +46,12 @@ export default function Requestsec() {
         </div>
       </div>
 
-      <div className="bg-[url(/assets/images/requestbg.webp)] md:pt-28 sm:pt-20 pt-14 bg-cover bg-no-repeat">
+      <div className="bg-[url(/assets/images/requestbg.webp)] overflow-x-clip md:pt-28 sm:pt-20 pt-14 bg-cover bg-no-repeat">
         <div className="container relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
-          <div className="flex flex-row md:max-w-[750px] md:pb-[36px] pb-2 flex-wrap justify-center items-center mx-auto">
+          <div  data-aos="fade-in" className="flex flex-row md:max-w-[750px] md:pb-[36px] pb-2 flex-wrap justify-center items-center mx-auto">
             {cardatas}
           </div>
-          <div className="flex flex-row max-w-[1000px] lg:pb-14 md:pb-10 pb-4 flex-wrap justify-center items-center mx-auto">
+          <div  data-aos="fade-in" className="flex flex-row max-w-[1000px] lg:pb-14 md:pb-10 pb-4 flex-wrap justify-center items-center mx-auto">
             {cardatas2}
           </div>
           <div className="flex justify-center lg:pb-44 sm:pb-20 pb-14">

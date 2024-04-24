@@ -17,7 +17,7 @@ export default function Livesec() {
             </div>
     ))
     return (
-        <div className="relative z-[1] ">
+        <div className="relative z-[1] overflow-x-clip ">
             <div className="container relative max-w-[1140px] lg:pb-32 md:pb-24 pb-20 2xl:max-w-[1320px] px-3 mx-auto">
                 <div className="absolute md:bottom-[6%] bottom-[2%] left-0"> 
           <div className="flex items-end mt-3 translate-x-6">
@@ -33,9 +33,9 @@ export default function Livesec() {
           </div>
         </div>
                 <h2 className="ff-helvetica font-bold md:pb-7 pb-3 sm:text-xl text-lg lg:pt-12 md:pt-8 pt-5 text-black text-center">In a 1:1 live coaching session, we will clarify the following questions in particular:</h2>
-                <div className="flex items-center max-sm:justify-center flex-row flex-wrap">
+                <div  data-aos="fade-down" className="flex items-center max-sm:justify-center flex-row flex-wrap">
                     {data}
-                    <div className="lg:w-1/3 sm:w-1/2 max-sm:pb-10 w-full">
+                    <div  data-aos="fade-down" className="lg:w-1/3 sm:w-1/2 max-sm:pb-10 w-full">
                         <div className=" sm:min-h-[230px] max-sm:pt-3  group w-full flex justify-center cursor-pointer mx-auto items-center">
                             <div className="bg-gradient-to-r rounded-[8px] from-[#0C5FD1] to-[#8703C5] p-[1.6px] max-w-[292px] flex justify-center items-center">
                                 <div className=" py-[18.33px] rounded-[8px] hover:bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] transition-all duration-300 flex bg-white items-center pl-2">

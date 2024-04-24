@@ -3,9 +3,9 @@
 export default function Getsec() {
     return (
         <>
-            <div id="benefit" className="container relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
-               <h2 className=" font-poppins font-normal pb-5 pt-12 text-base text-center text-black">You are not alone! Numerous women before you stood exactly at this point, where you are now.</h2>
-             <div className="flex items-center pb-2 justify-center">
+            <div id="benefit" className="container overflow-x-clip relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
+               <h2 data-aos="fade-up" className=" font-poppins font-normal pb-5 pt-12 text-base text-center text-black">You are not alone! Numerous women before you stood exactly at this point, where you are now.</h2>
+             <div data-aos="fade-up" className="flex items-center pb-2 justify-center">
           <div className="bg-gradient-to-r from-[#0C5FD1]  to-[#8703C5]  p-[1.6px] rounded-[63px] cursor-pointer">
             <div className="w-full flex xl:ps-1 items-center hover:bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] duration-300 transition-all group bg-white py-1 md:pr-12 pr-4 rounded-[63px]">
               <span>
@@ -38,17 +38,17 @@ export default function Getsec() {
                         <Image src="/assets/images/flower.webp" width={224.78} height={216.69} alt="flower" className="max-md:w-[150px]"/>
                     </div>
                     <div className="xl:w-3/12 md:w-6/12 w-full">
-                        <div className="flex max-lg:justify-center">
+                        <div data-aos="fade-right" className="flex max-lg:justify-center">
                           <h2 className="ff-helvetica lg:text-[52px] sm:text-5xl text-3xl text-black uppercase font-normal md:leading-[66.98px]">what you</h2>
                         </div>
                          <div className="flex max-lg:justify-center">
                            <h2 className="ff-helvetica md:text-[60.67px] sm:text-5xl text-4xl text-black font-normal md:leading-[78.14px]">WILL <span className="text-[#F77B0B]">GET</span> </h2>
                          </div>
                     </div>
-                    <div className="xl:w-3/12 xl:block hidden">
+                    <div data-aos="fade-left" className="xl:w-3/12 xl:block hidden">
                         <Image src="/assets/images/flower.webp" width={224.78} height={216.69} alt="flower"/>
                     </div>
-                    <div className="xl:w-5/12 md:w-6/12 ">
+                    <div data-aos="zoom-in" className="xl:w-5/12 md:w-6/12 ">
                         <p className="font-poppins relative after:absolute max-md:before:absolute max-md:before:top-[2px] max-md:before:-right-2 max-md:before:bottom-0 max-md:pt-2 max-md:before:w-[2px] max-md:before:bg-[#9800b0] after:top-[2px] md:text-start text-center lg:after:left-[-11px] after:-left-1 after:bottom-0 after:w-[2px] after:bg-[#9800B0] font-normal text-base text-black">I will show you which steps are necessary for you to <span className="lg:block"></span> finally successfully let go of your EX. And I will <span className="lg:block"></span> support you to look confidently into your new future.</p>
                     </div>
                 </div>

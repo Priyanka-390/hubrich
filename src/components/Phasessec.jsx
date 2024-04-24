@@ -57,7 +57,7 @@ export default function Phasessec() {
     </div>
   ));
   return (
-    <div className=" lg:pt-64 md:pt-40 pt-28 lg:pb-44 md:mb-2 relative overflow-y-clip mb-16 z-[1]">
+    <div className=" overflow-x-clip lg:pt-64 md:pt-40 pt-28 lg:pb-44 md:mb-2 relative overflow-y-clip mb-16 z-[1]">
       <Image src="/assets/images/svg/phaseellipse.svg" width={612} height={615} alt="phase" className="absolute bottom-[70%] w-auto h-auto z-[-1] md:block hidden left-0" />
       <div className="container lg:pt-20 relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="absolute xl:top-[-47%] lg:top-[-38%] max-lg:-rotate-90 top-[-6%] xl:right-[3%] lg:right-[7%]">
@@ -75,7 +75,7 @@ export default function Phasessec() {
           </div>
         </div>
         <div className="flex flex-row flex-wrap">
-          <div className="lg:w-6/12 w-full sm:pt-9">
+          <div  data-aos="fade-right" className="lg:w-6/12 w-full sm:pt-9">
             <p className="sm:text-[29.38px] text-2xl lg:text-start text-center ff-helvetica font-normal sm:leading-[37.84px] text-black">
               THE FOUR PHASES OF
             </p>
@@ -105,7 +105,7 @@ export default function Phasessec() {
                 </div>
             </div>
           </div>
-          <div className="lg:w-6/12 w-full max-lg:pt-3">
+          <div  data-aos="fade-left" className="lg:w-6/12 w-full max-lg:pt-3">
             <div className="bg-[#003D92] relative xl:px-[122px] md:px-20  sm:p-10 p-8 z-[1] md:pt-32 lg:h-[448px] md:h-[400px] min-h-[300px]">
               <Slider {...settings} ref={slider} className="istslider">
                 {dataslider}

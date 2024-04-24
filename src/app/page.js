@@ -1,4 +1,4 @@
-
+"use client"
 import Backtop from "@/components/Backtop";
 import Fault from "@/components/Fault";
 import Footersec from "@/components/Footersec";
@@ -13,10 +13,34 @@ import Phasessec from "@/components/Phasessec";
 import Requestsec from "@/components/Requestsec";
 import Targetsec from "@/components/Targetsec";
 import Image from "next/image";
+import { React, useEffect, useState } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Preloader from "@/components/Preloader";
+
 
 export default function Home() {
+  useEffect(() => {
+     AOS.init({
+          duration: 800,
+          once: true,
+        })
+  }, [])
+  const [loder, setloder] = useState(false);
+  useEffect(() => {
+    setloder(true)
+    setTimeout(() => {
+      setloder(false)
+    }, 3000);
+  }, [])
   return (
-    <div>
+       <div>
+      {loder ? (
+        <div>
+          <Preloader />
+        </div>
+      ) : (
+          <div>
       <div className="lg:bg-[url(/assets/images/heroimg.webp)] bg-[url(/assets/images/herobg2.webp)] 2xl:min-h-screen after:absolute after:top-0 after:right-0 after:bg-white max-lg:after:h-full after:left-0 after:z-[-1] z-[1] after:opacity-80 bg-cover bg-center bg-no-repeat relative">
         <Mynav />
         <Herosec />
@@ -40,5 +64,8 @@ export default function Home() {
       <Footersec />
      <Backtop/>
     </div>
+   )}
+    </div>
   );
 }
+

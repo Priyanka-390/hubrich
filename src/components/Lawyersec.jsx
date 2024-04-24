@@ -3,7 +3,7 @@ import { Btnarrow } from "./Icon";
 
 export default function Lawyersec() {
   return (
-    <div className=" lg:pt-60 pt-40 z-[1] relative">
+    <div className=" lg:pt-60 overflow-x-clip pt-40 z-[1] relative">
       <div className="container relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className="absolute lg:top-[-42%] top-[-22%] left-12 sm:left-0 max-sm:rotate-90">
           <div className="flex items-end mt-3 translate-x-6">
@@ -19,7 +19,7 @@ export default function Lawyersec() {
           </div>
         </div>
         <div className="flex flex-wrap justify-between flex-row">
-          <div className="lg:w-6/12 flex lg:justify-start justify-center w-full">
+          <div  data-aos="fade-right" className="lg:w-6/12 flex lg:justify-start justify-center w-full">
             <Image
               src="/assets/images/lawyer.webp"
               width={559}
@@ -29,7 +29,7 @@ export default function Lawyersec() {
             />
           </div>
           <div className="lg:w-6/12 max-lg:pt-2 w-full lg:flex px-3 lg:justify-end">
-            <div>
+            <div  data-aos="fade-left">
               <h2 className="lg:text-[52px] sm:text-5xl text-3xl lg:text-start text-center ff-helvetica md:leading-[66.98px] max-lg:mx-auto lg:max-w-[523px] text-black">
                 LAWYER <span className="text-[#F77B0B]">&</span> DIVORCE COACH
               </h2>
