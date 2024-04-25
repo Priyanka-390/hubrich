@@ -14,7 +14,7 @@ const datas2 = [
 
 export default function Requestsec() {
   const cardatas = datas.map((datas, i) => (
-    <div className="md:w-1/3 sm:w-1/2 w-full max-md:pt-2 flex justify-center items-center">
+    <div key={i} className="md:w-1/3 sm:w-1/2 w-full max-md:pt-2 flex justify-center items-center">
       <div className="md:py-[61px] p-10 w-full hover:bg-[#003D92] transition-all duration-300 max-w-[250px] sm:h-[200px] md:px-[38.5px] bg-[#FFFFFF26] backdrop-blur-[8px]">
         <p className="text-white text-base font-poppins font-normal">
           {datas.para}
@@ -23,7 +23,7 @@ export default function Requestsec() {
     </div>
   ));
   const cardatas2 = datas2.map((datas2, i) => (
-    <div className="md:w-1/4 sm:w-1/2 w-full pt-2 flex justify-center items-center">
+    <div key={i} className="md:w-1/4 sm:w-1/2 w-full pt-2 flex justify-center items-center">
       <div className="md:py-[61px] p-10  w-full hover:bg-[#003D92] transition-all duration-300 max-w-[250px] sm:h-[200px]  md:px-[38.5px] bg-[#FFFFFF26] backdrop-blur-[8px]">
         <p className="text-white text-base font-poppins font-normal">
           {datas2.para}

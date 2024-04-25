@@ -44,7 +44,8 @@ export const Callicon = () => {
 };
 export const Facebook = () => {
   return (
-    <svg className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
+    <svg
+      className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
       width="30"
       height="30"
       viewBox="0 0 30 30"
@@ -75,7 +76,8 @@ export const Facebook = () => {
 
 export const Twitter = () => {
   return (
-    <svg className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
+    <svg
+      className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
       width="30"
       height="31"
       viewBox="0 0 30 31"
@@ -104,7 +106,8 @@ export const Twitter = () => {
 
 export const Mail = () => {
   return (
-    <svg className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
+    <svg
+      className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
       width="30"
       height="31"
       viewBox="0 0 30 31"
@@ -134,7 +137,8 @@ export const Mail = () => {
 };
 export const Instagram = () => {
   return (
-    <svg className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
+    <svg
+      className="group-hover:shadow-[0px_5px_10px_0px_#fff] group-hover:translate-y-[-5px] duration-300 rounded-full"
       width="30"
       height="31"
       viewBox="0 0 30 31"
@@ -237,6 +241,22 @@ export const Uparrow = () => {
       width="24"
     >
       <path d="M200-200v-80h560v80H200Zm14-160 266-400 266 400H214Zm266-80Zm-118 0h236L480-616 362-440Z" />
+    </svg>
+  );
+};
+export const BlueQuttes = () => {
+  return (
+    <svg
+      width="99"
+      height="70"
+      viewBox="0 0 99 70"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.2403 69.5436H0L29.4027 0.0185547H49.3107L31.2403 69.5436ZM80.8573 69.5436H49.617L79.0197 0.0185547H98.9277L80.8573 69.5436Z"
+        fill="#003E92"
+      />
     </svg>
   );
 };

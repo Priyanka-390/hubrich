@@ -2,8 +2,8 @@
 
 export default function Getsec() {
     return (
-        <>
-            <div id="benefit" className="container overflow-x-clip relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
+        <div className=" overflow-x-clip">
+            <div id="benefit" className="container relative max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
                <h2 data-aos="fade-up" className=" font-poppins font-normal pb-5 pt-12 text-base text-center text-black">You are not alone! Numerous women before you stood exactly at this point, where you are now.</h2>
              <div data-aos="fade-up" className="flex items-center pb-2 justify-center">
           <div className="bg-gradient-to-r from-[#0C5FD1]  to-[#8703C5]  p-[1.6px] rounded-[63px] cursor-pointer">
@@ -53,6 +53,6 @@ export default function Getsec() {
                     </div>
                 </div>
             </div>
-            </>
+          </div>
     )
 }

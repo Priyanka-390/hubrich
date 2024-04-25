@@ -10,7 +10,9 @@ export default function Footersec() {
                 <div className="flex flex-row flex-wrap -mx-3">
                     <div className="2xl:w-7/12 lg:w-8/12 w-full xl:-ml-9 2xl:ml-0">
                         <div className="flex lg:justify-end justify-center">
-                            <Image src="/assets/images/svg/footerlogo.svg" className="mr-3 sm:w-[241px] w-[190px] sm:h-[90px] h-[60px]" width={241} height={90} alt="logo" />
+                            <a href="">
+                                <Image src="/assets/images/svg/footerlogo.svg" className="mr-3 sm:w-[241px] w-[190px] sm:h-[90px] h-[60px]" width={241} height={90} alt="logo" />
+                            </a>
                             </div>
                             <div className="flex lg:justify-end justify-center">
                                 <p className="text-center text-white lg:ml-6 font-poppins font-normal sm:text-base text-sm pt-2 md:pt-4">(c){year} MARC JOACHIM HUBRICH <span className="block"></span> All Rights Reserved</p>
@@ -24,7 +26,7 @@ export default function Footersec() {
                             <a className="group" target="blank" href="https://twitter.com/i/flow/login">
                                 <Twitter />
                             </a>
-                            <a className="group" target="blank" href="https://webmail.au.syrahost.com/">
+                            <a className="group" target="blank" href="mailto:Hubrich2344@gmail.com">
                                 <Mail />
                             </a>
                             <a className="group" target="blank" href="https://www.instagram.com/accounts/login/"><Instagram/></a>

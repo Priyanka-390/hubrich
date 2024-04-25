@@ -25,6 +25,24 @@
 .slick-dots li {
    margin: 0 !important;
 }
+.client .swiper-pagination-horizontal {
+  bottom: 0 !important;
+
+}
+
+.client .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: #003E92 !important;
+}
+.client .swiper-pagination-vertical {
+  bottom: var(--swiper-pagination-bottom, 8px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: auto !important;
+  position: absolute !important;
+  top: 84% !important;
+  transform: translateX(-50%) !important;
+}
   .istslider .slick-dots {
     position: absolute;
     bottom: -30px;

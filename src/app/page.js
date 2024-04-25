@@ -17,6 +17,7 @@ import { React, useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Preloader from "@/components/Preloader";
+import Clientslider from "@/components/Clientslider";
 
 
 export default function Home() {
@@ -59,7 +60,8 @@ export default function Home() {
       <Targetsec />
       <Phasessec />
       <Oversec />
-      <Lawyersec />
+            <Lawyersec />
+   <Clientslider/>
       <Requestsec />
       <Footersec />
      <Backtop/>
