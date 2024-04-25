@@ -25,7 +25,7 @@ export default function Lawyersec() {
               width={559}
               height={574}
               alt="lawyer"
-              className=""
+              className="w-auto h-auto"
             />
           </div>
           <div className="lg:w-6/12 max-lg:pt-2 w-full lg:flex px-3 lg:justify-end">
