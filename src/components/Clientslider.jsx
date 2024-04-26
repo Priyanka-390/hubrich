@@ -59,7 +59,7 @@ export default function Clientslider() {
   const [firstSwiper, setFirstSwiper] = React.useState(null);
   const [secondSwiper, setSecondSwiper] = React.useState(null);
   return (
-    <div className=" lg:py-52 md:py-32 py-20">
+    <div id="testi" className=" lg:py-52 md:py-32 py-20">
       <div className="container md:pb-5 relative max-w-[1140px]  2xl:max-w-[1320px] px-3 mx-auto">
          <div className="absolute md:top-[-28%] top-[-22%] xl:right-0 md:right-[5%] right-[9%]">
           <span className="ff-helvetica -rotate-90 translate-x-16 transform inline-flex font-normal md:text-2xl text-xl text-black">

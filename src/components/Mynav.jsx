@@ -22,7 +22,7 @@ const Mynav = () => {
                   <ul className={`flex gap-10 items-center mobileView  ${ show ? "right-[-100%]" : "right-0"
               }`}>
                       <li><a href="#benefit" onClick={nav} className=' font-normal ff-helvetica linkhover hover:text-[#003D92] duration-300 text-white text-base font-ff'>Benifits</a></li>
-                      <li><a href="" onClick={nav} className=' font-normal ff-helvetica linkhover text-white hover:text-[#003D92] duration-300 text-base font-ff'>Testimonials</a></li>
+                      <li><a href="#testi" onClick={nav} className=' font-normal ff-helvetica linkhover text-white hover:text-[#003D92] duration-300 text-base font-ff'>Testimonials</a></li>
                       <li><a href=""> <button className=' py-4 px-7 font-inter text-base font-medium border-transparent border-2 transition-all duration-300 hover:border-white bg-herobtn text-white'>Book consultation now</button></a></li>
                   </ul>
                    <label className=" lg:hidden" onClick={nav}>
