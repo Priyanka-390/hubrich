@@ -79,10 +79,6 @@ export default function Clientslider() {
           direction={"vertical"}
           modules={[Virtual, A11y, Autoplay, Controller, Pagination]}
           loop={true}
-          autoplay={{
-            delay: 4000,
-            disableOnInteraction:false,
-          } }
           autoHeight={true}
           spaceBetween={200}
           slidesPerView={1}
@@ -127,10 +123,6 @@ export default function Clientslider() {
           }}
           modules={[Virtual, A11y, Autoplay, Controller, Pagination]}
           loop={true}
-           autoplay={{
-            delay: 2000,
-            disableOnInteraction:false,
-          } }
           spaceBetween={20}
           slidesPerView={1}
           onSwiper={setSecondSwiper}

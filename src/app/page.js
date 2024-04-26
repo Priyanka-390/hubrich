@@ -40,7 +40,7 @@ export default function Home() {
           <Preloader />
         </div>
       ) : (
-        <div className=" overflow-x-clip">
+        <div className="overflow-x-hidden">
           <div className="lg:bg-[url(/assets/images/heroimg.webp)] bg-[url(/assets/images/herobg2.webp)] 2xl:min-h-screen after:absolute after:top-0 after:right-0 after:bg-white max-lg:after:h-full after:left-0 after:z-[-1] z-[1] after:opacity-80 bg-cover bg-center bg-no-repeat relative">
             <Mynav />
             <Herosec />
